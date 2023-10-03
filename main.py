@@ -37,6 +37,7 @@ while not end_of_game:
 
     if lives == 0:
         print("You lost")
+        print(f'The answer was {chosen_word}')
         break
     if "_" not in display:
         end_of_game = True

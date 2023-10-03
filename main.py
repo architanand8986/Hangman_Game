@@ -9,7 +9,6 @@ word_length = len(chosen_word)
 
 lives = 6
 
-print(f"Pssst, the solution is {chosen_word}.")
 print(logo)
 
 display = []
